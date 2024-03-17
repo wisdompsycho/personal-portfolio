@@ -30,17 +30,16 @@
   }
   
   #logo {
-    width: 100px;
+    width: 150px;
     height: 40px;
+    
   }
   
   #navbar {
     width: 50%;
     max-width: 300px;
-    position: fixed;
-    right: 50;
-    top: 0;
     height: 60px;
+    
   }
    
   nav > ul {
@@ -53,6 +52,7 @@
   
   li {
     list-style: none;
+    font-size: 1.2em;
   }
   
   li:hover {
@@ -91,7 +91,7 @@
         rgba(255, 255, 255, 0.7),
         rgba(180, 180, 180, 0.5)
       ),
-      url(https://iili.io/JWPwS5J.jpg);
+      url(background\ image.jpg);
     
     width: 90%;
     height: 900px;
@@ -243,8 +243,17 @@
    * {
      scroll-behavior: smooth;
    }
-  
+
+   
   }
+
+@media only secreen and (max-width: 400px) {
+#welcome-section {
+  margin: 30px auto;
+}
+
+}
+
   
   @keyframes slidein {
     from {
